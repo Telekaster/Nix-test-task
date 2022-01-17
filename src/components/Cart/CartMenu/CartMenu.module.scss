@@ -1,0 +1,51 @@
+.container {
+  margin: 0px auto;
+  min-width: 1281px;
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (max-width: 768px) {
+    min-width: 768px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  @media screen and (max-width: 376px) {
+    min-width: 376px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.link_block {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cart_link_block {
+  width: 300px;
+  text-align: center;
+}
+
+.nav_link {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.18;
+  color: #000000;
+
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+.nav_link:hover {
+  color: #999fd3;
+}
+
+.nav_link_active {
+  @extend .nav_link;
+  transform: scale(1.2);
+  color: #999fd3;
+}

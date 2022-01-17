@@ -1,0 +1,15 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 60px;
+  cursor: pointer;
+}
+
+.disabled {
+  border: none;
+}
+
+.enabled {
+  border-bottom: solid 3px #5b2c7e;
+}

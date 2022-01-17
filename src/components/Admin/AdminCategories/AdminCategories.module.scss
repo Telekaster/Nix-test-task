@@ -1,0 +1,88 @@
+.main_block {
+  width: 100%;
+  border-top: 3px solid rgb(31, 75, 208);
+}
+
+.title_text {
+  display: block;
+  margin: 25px 0 15px 35px;
+
+  font-family: Roboto;
+  font-size: 28px;
+  line-height: 1.18;
+  color: #000000;
+}
+
+.input_block {
+  margin-left: 35px;
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-width: 400px;
+  border: 2px solid #999fd3;
+  height: 45px;
+  padding-left: 15px;
+}
+
+.input_button {
+  margin-left: 15px;
+  width: 100px;
+  height: 45px;
+
+  border: none;
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 2%;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.input_button:hover {
+  transform: scale(1.1);
+}
+
+.categories_block {
+}
+
+.list_block {
+  margin-left: 35px;
+}
+
+.list {
+  margin-bottom: 15px;
+}
+.item {
+  margin-bottom: 15px;
+}
+
+.profile_menu__link {
+  display: block;
+  padding: 0;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.18;
+  color: #000000;
+}
+
+.profile_menu__link:hover {
+  color: #999fd3;
+}
+
+.profile_menu__link_active {
+  @extend .profile_menu__link;
+  color: #999fd3;
+}

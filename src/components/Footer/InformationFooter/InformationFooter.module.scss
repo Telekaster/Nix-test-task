@@ -1,0 +1,39 @@
+.lists {
+  display: flex;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 38px;
+  }
+}
+
+.item {
+  margin-bottom: 10px;
+  margin-right: 80px;
+  @media screen and (max-width: 768px) {
+    margin-right: 40px;
+  }
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+  @media screen and (max-width: 376px) {
+    font-size: 14px;
+  }
+}
+
+.link {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #ffffff;
+  @media screen and (max-width: 376px) {
+    font-size: 12px;
+  }
+}
+
+.link:hover {
+  text-decoration: underline;
+}

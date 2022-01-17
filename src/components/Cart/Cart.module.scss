@@ -1,0 +1,243 @@
+.container {
+  margin: 0px auto;
+  min-width: 1281px;
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (max-width: 768px) {
+    min-width: 768px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  @media screen and (max-width: 376px) {
+    min-width: 376px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.block {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.title_block {
+  border-bottom: 1px solid rgba(137, 20, 157, 0.1);
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  line-height: 1.18;
+  color: #000000;
+
+  margin-left: 24px;
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+.info {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 1px solid rgba(137, 20, 157, 0.1);
+
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+    padding-bottom: 15px;
+  }
+}
+
+.image_block {
+  margin-left: 24px;
+  margin-right: 50px;
+  min-width: 100px;
+  @media screen and (max-width: 768px) {
+    margin-left: 6px;
+    margin-right: 12px;
+    min-width: 70px;
+  }
+}
+
+.image {
+  display: block;
+  max-width: 96px;
+  max-height: 66px;
+  margin: auto;
+  @media screen and (max-width: 768px) {
+    max-width: 66px;
+    max-height: 36px;
+  }
+}
+
+.text_block {
+  min-width: 350px;
+  @media screen and (max-width: 768px) {
+    min-width: 80px;
+  }
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+
+  line-height: 1.24;
+  color: #000000;
+
+  margin-right: 24px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    margin-right: 12px;
+  }
+}
+
+.text_link {
+  @extend .text;
+}
+
+.text_link:hover {
+  text-decoration: underline;
+}
+
+.counter_button_minus {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    max-width: 10px;
+    max-height: 10px;
+    position: absolute;
+  }
+}
+
+.counter_button_plus {
+  @extend .counter_button_minus;
+  @media screen and (max-width: 768px) {
+  }
+}
+
+.counter_button:hover {
+  transform: scale(1.1);
+}
+
+.counter_button_hidden {
+  opacity: 0;
+  @media screen and (max-width: 768px) {
+    max-width: 10px;
+    max-height: 10px;
+  }
+}
+
+.input {
+  max-width: 50px;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    max-width: 30px;
+    height: 18px;
+  }
+}
+
+.price_block {
+  margin-left: 80px;
+  width: 100px;
+  margin-right: 40px;
+  @media screen and (max-width: 768px) {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+}
+
+.price {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14;
+  color: #ff4343;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+.delete_button {
+  max-width: 100px;
+  height: 34px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000000;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.delete_button:hover {
+  transform: scale(1.1);
+}
+
+.total_block {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  max-width: 800px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.total {
+  @extend .title;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.total_price {
+  @extend .total;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: red;
+}
+
+.order_button {
+  max-width: 180px;
+  height: 34px;
+
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 5%;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.order_button:hover {
+  transform: scale(1.1);
+}

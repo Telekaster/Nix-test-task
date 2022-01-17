@@ -1,0 +1,39 @@
+.container {
+  margin: 0px auto;
+  min-width: 1281px;
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 35px;
+  @media screen and (max-width: 768px) {
+    min-width: 768px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 33px;
+  }
+  @media screen and (max-width: 376px) {
+    min-width: 376px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 376px) {
+    padding-bottom: 10px;
+  }
+}
+
+.baner {
+  max-width: 1000px;
+  max-height: 400px;
+  @media screen and (max-width: 768px) {
+    max-width: 758px;
+  }
+  @media screen and (max-width: 376px) {
+    max-width: 366px;
+  }
+}

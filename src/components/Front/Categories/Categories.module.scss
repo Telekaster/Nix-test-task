@@ -1,0 +1,130 @@
+.block {
+  min-width: 296px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.12);
+  padding-bottom: 15px;
+  position: sticky;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.block_tablet {
+  @media screen and (max-width: 768px) {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    min-width: 750px;
+    position: absolute;
+    z-index: 1;
+    height: 350px;
+  }
+  @media screen and (max-width: 376px) {
+    min-width: 366px;
+    background-color: #fff;
+    height: 500px;
+  }
+}
+
+.title_block {
+  display: flex;
+  align-items: center;
+  max-width: 296px;
+  height: 36px;
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+
+  @media screen and (max-width: 768px) {
+    max-width: 758px;
+  }
+  @media screen and (max-width: 376px) {
+    min-width: 366px;
+  }
+}
+
+.title_icon {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+    margin-left: 2%;
+  }
+}
+
+.title_text {
+  margin-left: 17%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 2%;
+  }
+}
+
+.list_block {
+  overflow-y: scroll;
+  height: 350px;
+
+  @media screen and (max-width: 768px) {
+    overflow: visible;
+    height: 245px;
+  }
+  @media screen and (max-width: 376px) {
+    height: 315px;
+  }
+}
+
+.list {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    padding-left: 0;
+  }
+  @media screen and (max-width: 376px) {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+}
+
+.item {
+  @media screen and (max-width: 768px) {
+    height: 38px;
+  }
+}
+
+.category_link {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  color: #000000;
+  height: 11px;
+  padding-left: 30px;
+  padding-right: 10px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 376px) {
+    font-size: 11.5px;
+    padding-left: 5px;
+  }
+}
+
+.category_link:hover {
+  text-decoration: underline;
+}
+
+.category_link_active {
+  @extend .category_link;
+  font-weight: 500;
+}

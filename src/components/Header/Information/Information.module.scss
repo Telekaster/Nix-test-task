@@ -1,0 +1,42 @@
+.block {
+  margin-left: 24.3%;
+  margin-top: 15px;
+  @media screen and (max-width: 376px) {
+    display: none;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 350px;
+}
+.item {
+  margin-right: 5px;
+}
+.text {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.arrow_desktop {
+  margin-left: 5px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.arrow_tablet {
+  display: none;
+  margin-left: 5px;
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+  }
+}
