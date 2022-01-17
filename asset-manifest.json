@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Nix-test-task/static/css/main.066a880f.css",
+    "main.js": "/Nix-test-task/static/js/main.0764a29f.js",
+    "static/media/baner1.jpg": "/Nix-test-task/static/media/baner1.4cc77b926ad8246537a4.jpg",
+    "static/media/dog.png": "/Nix-test-task/static/media/dog.ebe9423a6e5aeeb09c9e.png",
+    "static/media/danger.jpg": "/Nix-test-task/static/media/danger.efd5cfd108b1adf843a6.jpg",
+    "static/media/logoFooter.png": "/Nix-test-task/static/media/logoFooter.1048d7adad14c69a1b19.png",
+    "static/media/phoneTwo.png": "/Nix-test-task/static/media/phoneTwo.ef741d65d491df9d9796.png",
+    "static/media/phoneOne.png": "/Nix-test-task/static/media/phoneOne.3642d1c454287e8443df.png",
+    "static/media/avatar.png": "/Nix-test-task/static/media/avatar.5faf09a7795d28bf5a2b.png",
+    "static/media/phoneThree.png": "/Nix-test-task/static/media/phoneThree.09d61e7322d2fdfc984a.png",
+    "static/media/logo.png": "/Nix-test-task/static/media/logo.49f7e033bb8d064a24d5.png",
+    "static/media/huawei.png": "/Nix-test-task/static/media/huawei.0b41835acb8f51c5211a.png",
+    "index.html": "/Nix-test-task/index.html",
+    "main.066a880f.css.map": "/Nix-test-task/static/css/main.066a880f.css.map",
+    "main.0764a29f.js.map": "/Nix-test-task/static/js/main.0764a29f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066a880f.css",
+    "static/js/main.0764a29f.js"
+  ]
+}
